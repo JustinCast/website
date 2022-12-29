@@ -32,8 +32,8 @@ While some dApps may use on-chain groups, others may prefer to use off-chain gro
 
 ## Extension contracts
 
--   [`SemaphoreVoting.sol`](https://github.com/semaphore-protocol/semaphore/blob/main/packages/contracts/extensions/SemaphoreVoting.sol): voting contract that contains the essential functions to create polls, add voters, and anonymously cast votes.
--   [`SemaphoreWhistleblowing.sol`](https://github.com/semaphore-protocol/semaphore/blob/main/packages/contracts/extensions/SemaphoreWhistleblowing.sol): whistleblowing contract that contains the essential functions to create entities (for example: non-profit organizations), add whistleblowers, and anonymously publish leaks.
+-   [`SemaphoreVoting.sol`](https://github.com/semaphore-protocol/semaphore/blob/main/packages/contracts/contracts/extensions/SemaphoreVoting.sol): voting contract that contains the essential functions to create polls, add voters, and anonymously cast votes.
+-   [`SemaphoreWhistleblowing.sol`](https://github.com/semaphore-protocol/semaphore/blob/main/packages/contracts/contracts/extensions/SemaphoreWhistleblowing.sol): whistleblowing contract that contains the essential functions to create entities (for example: non-profit organizations), add whistleblowers, and anonymously publish leaks.
 
 These contracts extend the protocol to provide application logic for specific use-cases.
 More extensions will be added in the future.
